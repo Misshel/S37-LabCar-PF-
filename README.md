@@ -12,3 +12,7 @@ Archivos :
       - style.css
       - bootstrap.min.css
   - carpeta image (contiene 9 imagenes).
+
+Ramas:
+-navbar:
+Se utilizo "Default navbar" de la seccion de Components de bootstrap, luego se edito y se agrego el logo respectivo del proyecto, se cambios para el menu movil se borro el color de fondo y borde. 
