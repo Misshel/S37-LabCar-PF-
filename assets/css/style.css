@@ -111,3 +111,19 @@ h3{
 .men-movil{
   margin-top: 3rem;
 }
+
+.cont2-desk{
+  border: 2px solid #ffffff;
+  border-left: 0;
+  margin-left: 0;
+  margin-top: 4rem;
+}
+
+.marg-desk{
+  margin: 3rem;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+}
