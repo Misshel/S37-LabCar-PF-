@@ -35,9 +35,12 @@ img{
 }
 
 /*CONTENIDO*/
+#contenido1,
+#contenido2{
+  color: #ffffff;
+}
 /*contenido-1*/
 #contenido1{
-  color: #ffffff;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   height: 100vh;
@@ -60,7 +63,8 @@ img{
 
 h1,
 h3,
-h4{
+h4,
+h5{
   font-weight: bold;
 }
 
@@ -90,4 +94,20 @@ h3{
 .logo-cont-desk{
   display: inline-block;
   float: none;
+}
+
+/*contenido-2*/
+
+#contenido2{
+  background-color: #f7b617;
+  height: 50rem;
+}
+.cont2-movil{
+  border: 2px solid #ffffff;
+  margin-top: 3rem;
+  padding: 4rem;
+}
+
+.men-movil{
+  margin-top: 3rem;
 }
