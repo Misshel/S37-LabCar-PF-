@@ -1,0 +1,35 @@
+/*FONTS*/
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+img{
+  height: 100%;
+  width: 100%;
+}
+
+/*ESTILOS PARA HEADER*/
+
+.navbar-default .navbar-nav>li>a,
+.navbar {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-toggle,
+.navbar-brand{
+  float: none;
+}
+
+.navbar-toggle{
+  margin-top: 14px;
+}
+
+@media (min-width: 768px){
+  .navbar-nav {
+    float: right;
+    margin-top: 10px;
+  }
+
+  .navbar-nav>li {
+      margin: 0 1rem;
+  }
+}
