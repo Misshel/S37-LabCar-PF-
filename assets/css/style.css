@@ -11,7 +11,7 @@ img{
 
 .navbar-default .navbar-nav>li>a,
 .navbar {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-toggle,
@@ -30,6 +30,64 @@ img{
   }
 
   .navbar-nav>li {
-      margin: 0 1rem;
+    margin: 0 1rem;
   }
+}
+
+/*CONTENIDO*/
+/*contenido-1*/
+#contenido1{
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.cont-movil,
+.cont-desk{
+  background-color: #f7b617;
+  height: 42vh;
+  position: absolute;
+  top: 16rem;
+}
+
+.cont-desk{
+  margin-top: 12px;
+  height: 50vh;
+}
+
+h1,
+h3,
+h4{
+  font-weight: bold;
+}
+
+button.btn.btn-default{
+  border-radius: 8px;
+  color: black;
+  font-size: 16.5px;
+  height: 4rem;
+}
+
+.cont1-movil{
+  margin: 2rem 0;
+}
+
+.boton{
+  margin-top: 35px;
+}
+
+.boton2{
+  margin-top: 20px;
+}
+
+h3{
+  display: inline-block;
+}
+
+.logo-cont-desk{
+  display: inline-block;
+  float: none;
 }
