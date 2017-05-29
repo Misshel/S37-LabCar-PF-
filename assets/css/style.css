@@ -2,6 +2,10 @@
 /*font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif;*/
 
+/**{
+box-sizing: border-box;
+}*/
+
 img{
   height: 100%;
   width: 100%;
@@ -35,17 +39,16 @@ img{
 }
 
 /*CONTENIDO*/
-#contenido1,
-#contenido2{
-  color: #ffffff;
-}
 /*contenido-1*/
-#contenido1{
+#contenido1, #contenido3{
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   height: 100vh;
-  position: relative;
   width: 100%;
+}
+
+.cont-img{
+  height: 100%;
 }
 
 .cont-movil,
@@ -53,7 +56,8 @@ img{
   background-color: #f7b617;
   height: 42vh;
   position: absolute;
-  top: 16rem;
+  top: 27rem;
+  right: 0;
 }
 
 .cont-desk{
@@ -62,9 +66,13 @@ img{
 }
 
 h1,
+h2,
 h3,
 h4,
-h5{
+h5,
+span,
+p{
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -101,6 +109,10 @@ h3{
 #contenido2{
   background-color: #f7b617;
   height: 50rem;
+  z-index: 1000;
+}
+.cont2{
+  z-index: 1000;
 }
 .cont2-movil{
   border: 2px solid #ffffff;
@@ -126,4 +138,59 @@ h3{
 p{
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
+}
+
+/*contenido-3*/
+#contenido3{
+  height: 40vh;
+  position: relative;
+}
+
+.cont3{
+  position: absolute;
+  top: 3rem;
+}
+.img-row{
+  height: 122%;
+  position: absolute;
+  bottom: 0rem;
+  z-index: -1;
+}
+.text3{
+  position: absolute;
+  background-color: rgba(52, 52, 56, 0.82);
+  top: 0;
+  padding: 3rem 2rem;
+  height: 100%;
+  float: right;
+  right: 0;
+}
+.text-3{
+  font-size: 1.3em;
+}
+button.btn.btn-default.boton3{
+  background-color: #f7b617;
+  color: #ffffff;
+}
+
+@media (min-width: 768px){
+  .img-row{
+    bottom: 0;
+  }
+  #contenido3{
+    height: 99vh;
+  }
+
+  .col-lg-4 {
+
+  }
+  .marg-t{
+    margin-top: 14rem;
+  }
+}
+
+@media (min-width: 1200px)
+bootstrap.min.css:14
+.col-lg-4 {
+  width: 33.33333333%;
 }
